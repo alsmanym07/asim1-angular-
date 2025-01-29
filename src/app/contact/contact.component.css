@@ -1,0 +1,30 @@
+.contact{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.contact .after-line{
+    width: 90px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: black;
+}
+.contact .before-line{
+    width: 90px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: black;
+}
+.contact .form-g{
+    margin-top: 80px;
+}
+.form-control{
+    box-shadow: none;
+   
+}
+.contact .labinput{
+    color: #1ABC9C;
+}
+.bform{
+    background-color:#1ABC9C;
+    color: white;
+}

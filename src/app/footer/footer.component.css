@@ -1,0 +1,23 @@
+footer .card-group{
+    padding: 50px;
+    background-color: #2C3E50;
+}
+footer .next-footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+footer .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .icons .icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px;
+}

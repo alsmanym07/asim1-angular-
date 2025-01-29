@@ -1,0 +1,36 @@
+<section>
+    <div class="portfolio">
+        <div class="title text-center">
+            <h2 class=" text-uppercase fw-bold">{{textPort}}</h2>
+            <div class="icons d-flex justify-content-center">
+                <div class=" after-line"></div>
+                <i class="fa-solid fa-star mx-3"></i>
+                <div class=" before-line"></div>
+            </div>
+        </div>
+    </div>
+       <div class="gallary mb-5">
+        <div class="container">
+        <div class="row gy-3">
+         @for (item of imagesSrc; track $index) {
+             <div class="col-md-4">
+                <div class="image position-relative">
+                    <img [src]="item" class="w-100" alt="">
+                    <div class="layer d-flex justify-content-center align-items-center" (click)="showimage = item" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <i class="fa-solid fa-plus text-white"></i>
+                    </div>
+                   </div>
+                   <div class="modal fade hove" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-body">
+                     <img [src]="showimage" class="w-100" alt="">
+                     </div>
+                      </div>
+                      </div>
+            </div>
+         }
+        </div>
+        </div>
+    </div>
+    
+</section>

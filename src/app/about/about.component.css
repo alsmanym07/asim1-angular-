@@ -1,0 +1,24 @@
+.about{
+    padding: 100px 0 ;
+    background-color:#1ABC9C;
+}
+.about .title{
+    padding-top: 100px; 
+}
+
+.about .after-line{
+    width: 90px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: white;
+}
+.about .before-line{
+    width: 90px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: white;
+}
+.about .paragragh{
+    padding-top: 30px;
+  
+}
